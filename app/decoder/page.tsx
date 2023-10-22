@@ -20,7 +20,7 @@ const decoderPage = () => {
     const ctrl = new AbortController();
 
     try {
-      fetchEventSource("api/chat", {
+      fetchEventSource("api/decoder", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
